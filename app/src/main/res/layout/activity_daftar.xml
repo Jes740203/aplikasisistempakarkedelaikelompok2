@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".daftar">
+
+    <TextView
+        android:id="@+id/yty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAFTAR PENYAKIT"
+        android:textColor="#E5C258"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <ImageView
+        android:id="@+id/penyakit7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84"
+        app:srcCompat="@drawable/tomboll" />
+
+    <ImageView
+        android:id="@+id/penyakit6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727"
+        app:srcCompat="@drawable/tomboll" />
+
+    <ImageView
+        android:id="@+id/penyakit5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616"
+        app:srcCompat="@drawable/tomboll" />
+
+    <ImageView
+        android:id="@+id/penyakit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156"
+        app:srcCompat="@drawable/tomboll" />
+
+    <ImageView
+        android:id="@+id/penyakit4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        app:srcCompat="@drawable/tomboll" />
+
+    <ImageView
+        android:id="@+id/penyakit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.386"
+        app:srcCompat="@drawable/tomboll" />
+
+    <ImageView
+        android:id="@+id/penyakit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27"
+        app:srcCompat="@drawable/tomboll" />
+
+    <TextView
+        android:id="@+id/karatdaun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karat Daun"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/penyakit1"
+        app:layout_constraintEnd_toEndOf="@+id/penyakit1"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/penyakit1" />
+
+    <TextView
+        android:id="@+id/busukrhi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Busuk Rhizoctonia"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/penyakit2"
+        app:layout_constraintEnd_toEndOf="@+id/penyakit2"
+        app:layout_constraintStart_toStartOf="@+id/penyakit2"
+        app:layout_constraintTop_toTopOf="@+id/penyakit2" />
+
+    <TextView
+        android:id="@+id/busukbatang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Busuk Batang"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/penyakit3"
+        app:layout_constraintEnd_toEndOf="@+id/penyakit3"
+        app:layout_constraintStart_toStartOf="@+id/penyakit3"
+        app:layout_constraintTop_toTopOf="@+id/penyakit3" />
+
+    <TextView
+        android:id="@+id/bercakdaun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bercak Daun Terget Spot"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/penyakit5"
+        app:layout_constraintEnd_toEndOf="@+id/penyakit5"
+        app:layout_constraintStart_toStartOf="@+id/penyakit5"
+        app:layout_constraintTop_toTopOf="@+id/penyakit5" />
+
+    <TextView
+        android:id="@+id/layubakteri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Layu Bakteri"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/penyakit4"
+        app:layout_constraintEnd_toEndOf="@+id/penyakit4"
+        app:layout_constraintStart_toStartOf="@+id/penyakit4"
+        app:layout_constraintTop_toTopOf="@+id/penyakit4" />
+
+    <TextView
+        android:id="@+id/kerdil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kerdil"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/penyakit7"
+        app:layout_constraintEnd_toEndOf="@+id/penyakit7"
+        app:layout_constraintStart_toStartOf="@+id/penyakit7"
+        app:layout_constraintTop_toTopOf="@+id/penyakit7" />
+
+    <TextView
+        android:id="@+id/antraknosa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anktraknosa"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/penyakit6"
+        app:layout_constraintEnd_toEndOf="@+id/penyakit6"
+        app:layout_constraintStart_toStartOf="@+id/penyakit6"
+        app:layout_constraintTop_toTopOf="@+id/penyakit6" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/back" />
+</androidx.constraintlayout.widget.ConstraintLayout>
